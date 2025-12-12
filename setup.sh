@@ -5,9 +5,11 @@ sudo apt upgrade
 sudo apt install curl wget git libfuse2t64 zsh
 
 # vanilla gnome
-
 sudo apt install pulseaudio
 sudo apt install vanilla-gnome-desktop
+
+# nextcloud desktop
+sudo apt install nextcloud-desktop
 
 # ohmyzsh
 chsh -s $(which zsh)
@@ -24,3 +26,4 @@ sudo apt install terminator audacious
 
 # reboot after script
 # select Gnome in the login screen
+# connect to nextcloud and sync files
